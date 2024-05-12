@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CanvasApp</name>
+    </assembly>
+    <members>
+        <member name="T:CanvasApp.ViewModels.InstructorViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.InstructorViewModel.SelectedCourseToDelete">
+            <inheritdoc cref="F:CanvasApp.ViewModels.InstructorViewModel.selectedCourseToDelete"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.InstructorViewModel.SelectedStudentToDelete">
+            <inheritdoc cref="F:CanvasApp.ViewModels.InstructorViewModel.selectedStudentToDelete"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.InstructorViewModel.CourseName">
+            <inheritdoc cref="F:CanvasApp.ViewModels.InstructorViewModel.courseName"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.InstructorViewModel.CourseCode">
+            <inheritdoc cref="F:CanvasApp.ViewModels.InstructorViewModel.courseCode"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.InstructorViewModel.CourseDescription">
+            <inheritdoc cref="F:CanvasApp.ViewModels.InstructorViewModel.courseDescription"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.InstructorViewModel.StudentName">
+            <inheritdoc cref="F:CanvasApp.ViewModels.InstructorViewModel.studentName"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.InstructorViewModel.StudentClassification">
+            <inheritdoc cref="F:CanvasApp.ViewModels.InstructorViewModel.studentClassification"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.InstructorViewModel.SelectedCourse">
+            <inheritdoc cref="F:CanvasApp.ViewModels.InstructorViewModel.selectedCourse"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.InstructorViewModel.SelectedStudent">
+            <inheritdoc cref="F:CanvasApp.ViewModels.InstructorViewModel.selectedStudent"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.InstructorViewModel.ModuleName">
+            <inheritdoc cref="F:CanvasApp.ViewModels.InstructorViewModel.moduleName"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.InstructorViewModel.ModuleDescription">
+            <inheritdoc cref="F:CanvasApp.ViewModels.InstructorViewModel.moduleDescription"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.InstructorViewModel.AssignmentName">
+            <inheritdoc cref="F:CanvasApp.ViewModels.InstructorViewModel.assignmentName"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.InstructorViewModel.AssignmentDescription">
+            <inheritdoc cref="F:CanvasApp.ViewModels.InstructorViewModel.assignmentDescription"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.InstructorViewModel.AssignmentDueDate">
+            <inheritdoc cref="F:CanvasApp.ViewModels.InstructorViewModel.assignmentDueDate"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.InstructorViewModel.SelectedModuleToAdd">
+            <inheritdoc cref="F:CanvasApp.ViewModels.InstructorViewModel.selectedModuleToAdd"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.InstructorViewModel.SelectedAssignmentToAdd">
+            <inheritdoc cref="F:CanvasApp.ViewModels.InstructorViewModel.selectedAssignmentToAdd"/>
+        </member>
+        <member name="T:CanvasApp.ViewModels.StudentViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.StudentViewModel.PickedFileName">
+            <inheritdoc cref="F:CanvasApp.ViewModels.StudentViewModel.pickedFileName"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.StudentViewModel.SelectedStudent">
+            <inheritdoc cref="F:CanvasApp.ViewModels.StudentViewModel.selectedStudent"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.StudentViewModel.IsFilePicked">
+            <inheritdoc cref="F:CanvasApp.ViewModels.StudentViewModel.isFilePicked"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.StudentViewModel.SelectedCourse">
+            <inheritdoc cref="F:CanvasApp.ViewModels.StudentViewModel.selectedCourse"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.StudentViewModel.SelectedCourseModules">
+            <inheritdoc cref="F:CanvasApp.ViewModels.StudentViewModel.selectedCourseModules"/>
+        </member>
+        <member name="P:CanvasApp.ViewModels.StudentViewModel.SelectedAssignments">
+            <inheritdoc cref="F:CanvasApp.ViewModels.StudentViewModel.selectedAssignments"/>
+        </member>
+        <member name="M:CanvasApp.ViewModels.StudentViewModel.OnSelectedStudentChanged(CanvasApp.Models.Person)">
+            <summary>Executes the logic for when <see cref="P:CanvasApp.ViewModels.StudentViewModel.SelectedStudent"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:CanvasApp.ViewModels.StudentViewModel.SelectedStudent"/> is changed.</remarks>
+        </member>
+        <member name="M:CanvasApp.ViewModels.StudentViewModel.OnSelectedCourseChanged(CanvasApp.Models.Course)">
+            <summary>Executes the logic for when <see cref="P:CanvasApp.ViewModels.StudentViewModel.SelectedCourse"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:CanvasApp.ViewModels.StudentViewModel.SelectedCourse"/> is changed.</remarks>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedCourseToDelete">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedCourseToDelete" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedStudentToDelete">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedStudentToDelete" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CourseName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CourseName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CourseCode">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CourseCode" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CourseDescription">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CourseDescription" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.StudentName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "StudentName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.StudentClassification">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "StudentClassification" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedCourse">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedCourse" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedStudent">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedStudent" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ModuleName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ModuleName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ModuleDescription">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ModuleDescription" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AssignmentName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AssignmentName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AssignmentDescription">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AssignmentDescription" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AssignmentDueDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AssignmentDueDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedModuleToAdd">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedModuleToAdd" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedAssignmentToAdd">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedAssignmentToAdd" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PickedFileName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PickedFileName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsFilePicked">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsFilePicked" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedCourseModules">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedCourseModules" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedAssignments">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedAssignments" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedCourseToDelete">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedCourseToDelete" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedStudentToDelete">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedStudentToDelete" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CourseName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CourseName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CourseCode">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CourseCode" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CourseDescription">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CourseDescription" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.StudentName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "StudentName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.StudentClassification">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "StudentClassification" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedCourse">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedCourse" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedStudent">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedStudent" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ModuleName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ModuleName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ModuleDescription">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ModuleDescription" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AssignmentName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AssignmentName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AssignmentDescription">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AssignmentDescription" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AssignmentDueDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AssignmentDueDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedModuleToAdd">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedModuleToAdd" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedAssignmentToAdd">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedAssignmentToAdd" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PickedFileName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PickedFileName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsFilePicked">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsFilePicked" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedCourseModules">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedCourseModules" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedAssignments">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedAssignments" generated properties.</summary>
+        </member>
+    </members>
+</doc>
