@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FRdGOsFyAUVAh3/E1xc46ku+tJf8n3jGkhl0y1IYhHk=",
+  "Source": "FakeDatabase",
+  "BasePath": "_content/FakeDatabase",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
