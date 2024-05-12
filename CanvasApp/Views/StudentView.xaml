@@ -1,0 +1,101 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CanvasApp.Views.StudentView"
+             xmlns:vm="clr-namespace:CanvasApp.ViewModels">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="20">
+            <Label Text="Select a Student" FontAttributes="Bold" FontSize="20"/>
+                <Picker Title="Select a Student"
+                        ItemsSource="{Binding Students}"
+                        ItemDisplayBinding="{Binding Name}"
+                        SelectedItem="{Binding SelectedStudent, Mode=TwoWay}"/>
+            <Button Text="Select Student" Command="{Binding SelectStudentCommand}"/>
+
+
+
+            <Frame BorderColor="Gray" CornerRadius="5">
+                <VerticalStackLayout>
+                    <Label Text="Registered Courses:" FontAttributes="Bold" FontSize="20"/>
+                    <CollectionView ItemsSource="{Binding StudentCourses}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Name}" FontAttributes="Bold"/>
+                                    <Label Text=" - "/>
+                                    <Label Text="{Binding Code}"/>
+                                    <Label Text=" - "/>
+                                    <Label Text="{Binding Description}"/>
+                                    <Label Text="&#10;"/>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+               </VerticalStackLayout>
+            </Frame>
+
+            <VerticalStackLayout>
+               <Label Text="Choose Course:"  FontSize="20" FontAttributes="Bold"/>
+                    <Picker Title="Select a Course"
+                                ItemsSource="{Binding StudentCourses}"
+                                ItemDisplayBinding="{Binding Name}"
+                                SelectedItem="{Binding SelectedCourse, Mode=TwoWay}"/>
+                        
+
+            </VerticalStackLayout>
+
+            <Frame BorderColor="Gray" CornerRadius="5">
+            <VerticalStackLayout>
+            <Label Text="Modules:" FontSize="20"/>
+            <CollectionView ItemsSource="{Binding StudentModules}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Name}" FontAttributes="Bold"/>
+                            <Label Text=" - "/>
+                            <Label Text="{Binding Description}"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Display Assignments -->
+            <Label Text="Assignments:" FontSize="20"/>
+            <CollectionView ItemsSource="{Binding StudentAssignments}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Name}" FontSize="14" FontAttributes="Bold"/>
+                            <Label Text=" - "/>
+                            <Label Text="{Binding Description}"/>
+                            <Label Text=" - Due: ("/>
+                            <Label Text="{Binding DueDate}"/>
+                            <Label Text=")"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            </VerticalStackLayout>
+            </Frame>
+
+            <Frame BorderColor="Gray" CornerRadius="5">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Choose an Assignment:" FontSize="20" FontAttributes="Bold"/>
+                    <Picker Title="Select an Assignment"
+                            ItemsSource="{Binding StudentAssignments}"
+                            ItemDisplayBinding="{Binding Name}"
+                            SelectedItem="{Binding SelectedAssignments}"/>
+                    <Button Text="Pick File" Command="{Binding PickFileCommand}"/>
+                    <Label Text="File Name:" HorizontalOptions="Center" FontSize="18"/>
+                    <Label Text="{Binding PickedFileName}" FontAttributes="Italic" HorizontalOptions="Center"/>
+                    <Button Text="Submit Assignment" Command="{Binding SubmitAssignmentCommand}" IsEnabled="{Binding IsFilePicked}"/>
+                </VerticalStackLayout>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+
+
+
+

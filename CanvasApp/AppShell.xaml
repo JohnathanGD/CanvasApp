@@ -1,0 +1,15 @@
+﻿<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:CanvasApp"
+       xmlns:views="clr-namespace:CanvasApp.Views" 
+       x:Class="CanvasApp.AppShell">
+
+    <ShellContent Route="MainPage" ContentTemplate="{DataTemplate local:MainPage}" />
+
+    <ShellContent Route="InstructorView" ContentTemplate="{DataTemplate views:InstructorView}" />
+    <ShellContent Route="StudentView" ContentTemplate="{DataTemplate views:StudentView}" />
+
+</Shell>
+
+
+
